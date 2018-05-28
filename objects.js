@@ -3,6 +3,6 @@ function updatePlaylist(playlist,Teddy,Ethiopia){
   playlist[Teddy] = 'Ethiopa'
   return playlist
 }
-function removeFromPlaylist(playlist,Teddy){
-  delete Teddy.Ethiopia;
+function removeFromPlaylist(playlist,name){
+  delete Teddy.name;
 }
