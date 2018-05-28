@@ -4,5 +4,5 @@ function updatePlaylist(playlist,Teddy,Ethiopia){
   return playlist
 }
 function removeFromPlaylist(playlist,name){
-  delete Teddy.name;
+  delete playlist.name;
 }
