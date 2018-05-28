@@ -3,8 +3,8 @@ function updatePlaylist(playlist,Teddy,Ethiopia){
   playlist[Teddy] = 'Ethiopa'
   return playlist
 }
-function removeFromPlaylist(playlist,whitenyhousten){
- delete playlist.whitenyhousten,...;
+function removeFromPlaylist(playlist,name){
+ delete playlist.name
  return playlist
 
 }
