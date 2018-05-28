@@ -4,6 +4,6 @@ function updatePlaylist(playlist,Teddy,Ethiopia){
   return playlist
 }
 function removeFromPlaylist(playlist,whitenyhousten){
- return delete playlist.whitenyhousten;
+ return delete playlist.whitenyhousten,...;
 
 }
