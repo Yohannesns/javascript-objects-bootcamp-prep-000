@@ -4,7 +4,7 @@ function updatePlaylist(playlist,Teddy,Ethiopia){
   return playlist
 }
 function removeFromPlaylist(playlist,artistName){
-  playlist.foreach (artistName )
-  delete playlist.artistName;
+  delete playlist[artistName];
+  return playlist
 
  }
