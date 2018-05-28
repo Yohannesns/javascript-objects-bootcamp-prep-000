@@ -1,5 +1,5 @@
 var playlist = {whitenyhousten: "I will always Love You"}
-function updatePlaylist(obj, key, value){
+function updatePlaylist(playlist,Teddy,Ethiopia){
   playlist[Teddy] = 'Ethiopa'
   return playlist
 }
